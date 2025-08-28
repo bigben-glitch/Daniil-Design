@@ -30,7 +30,7 @@
 }
 #Ansikte {
     height: 560px;
-    width: 650px;;
+    width: 600px;;
     background-color: black;
     display: flex;
     align-items: center;
@@ -44,9 +44,6 @@
         margin: 0;
     }}
 #höger {
-    position: absolute;
-    top: 260px;
-    left: 760px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     p {
         position: relative;
@@ -55,4 +52,13 @@
 body {
     overflow: hidden;
     background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+#bigbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    margin-top: 3px;
 }
