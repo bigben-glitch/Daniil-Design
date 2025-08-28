@@ -1,18 +1,17 @@
-body {
-    background-color: lightgray;
-}
+
 .header {
    background-color: black;
    height: 70px;
    display: flex;
    align-items: center;
-   justify-content: space-between; /* Add this */
-   padding: 0 30px; /* Optional: adds space on left/right */
+   justify-content: space-between; 
+   padding: 0 30px; 
 }
 .header h3 {
    color: white;
    text-align: center;
    display: flex;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header ul {
     display: flex;
@@ -27,4 +26,33 @@ body {
     margin-left: 30px;
     font-size: 1rem;
     align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Ansikte {
+    height: 560px;
+    width: 650px;;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    img {
+        height: 450px;  
+        width: 450px;
+        border-radius: 50%;
+        display: block;
+        margin: 0;
+    }}
+#höger {
+    position: absolute;
+    top: 260px;
+    left: 760px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    p {
+        position: relative;
+        left: 61px;
+}}
+body {
+    overflow: hidden;
+    background-color: lightgray;
 }
